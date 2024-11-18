@@ -1,0 +1,58 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  color: #DAA520;
+}
+
+label {
+  color: #DAA520;
+}
+
+th {
+  color: #DAA520;
+}
+
+#message {
+  color: red;
+  font-size: 16px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.table {
+  margin-top: 20px;
+  background-color: #fff;
+  border: 1px solid #DAA520;
+}
+
+.table th,
+.table td {
+  text-align: center;
+  padding: 10px;
+}
+
+.table th {
+  background-color: #DAA520;
+  color: purple;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.btn-secondary {
+  background-color: #8B0000;
+  color: white;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: #B22222;
+}
+
+#grafico-geral {
+  max-width: 100%;
+  height: auto;
+}
